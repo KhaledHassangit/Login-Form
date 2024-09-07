@@ -3,7 +3,7 @@ import Layout from "./utilities/Layout";
 import Dashboard from "./components/Dashboard";
 import ProtectedRoutesHook from "./CustomHooks/ProtectedRoutes-Hook";
 import ProtectedRoutes from "./utilities/ProtectedRoutes";
-import LoginForm from "./components/loginform";
+import LoginForm from "./components/LoginForm";
 
 function App() {
   const [isAdmin] = ProtectedRoutesHook(); 

@@ -13,7 +13,6 @@ const Navbar = () => {
 
 
     return (
-        <div className="container">
             <div className="navbar">
                 <div className="logo">
                     <img src={logo} alt="logo" className="logo-img" />
@@ -24,7 +23,6 @@ const Navbar = () => {
                     <span style={{whiteSpace:"nowrap"}}>Go To Website</span>
                 </button>
             </div>
-        </div>
     );
 };
 

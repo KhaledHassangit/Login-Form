@@ -1,9 +1,9 @@
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from "react-router-dom";
 import Layout from "./utilities/Layout";
 import Dashboard from "./components/Dashboard";
-import ProtectedRoutesHook from "./CustomHooks/ProtectedRoutes-Hook";
 import ProtectedRoutes from "./utilities/ProtectedRoutes";
 import LoginForm from "./components/LoginForm";
+import ProtectedRoutesHook from "./CustomHooks/Auth/ProtectedRoutes-Hook";
 
 function App() {
   const [isAdmin] = ProtectedRoutesHook(); 

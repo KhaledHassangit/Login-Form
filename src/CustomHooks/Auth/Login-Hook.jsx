@@ -44,9 +44,6 @@ const LoginHook = (uid) => {
             cookies.remove('token'); 
         } finally {
             setLoading(false);
-            setEmail("");
-            setPassword("");
-
         }
     };
 

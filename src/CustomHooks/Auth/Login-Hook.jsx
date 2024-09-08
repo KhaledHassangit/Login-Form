@@ -15,6 +15,7 @@ const LoginHook = (uid) => {
         setLoading(true);
         setError(null);
         try {
+            // Send login request
             // const response = await axios.post(
             //     `https://one-hand/login?uid=${uid}`,
             //     { email, password },

@@ -13,6 +13,7 @@ function App() {
       <>
         <Route path='/' element={<Layout />}>
           <Route index element={<LoginForm />} />
+          {/* <Route path="/login/:uid"  element={<LoginForm />} /> */}
 
           {/* Admin Routes   */}
         <Route element={<ProtectedRoutes auth={isAdmin} />}>

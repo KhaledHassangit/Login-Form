@@ -2,6 +2,8 @@ import logo from "../assets/logo.svg";
 import LoginHook from "../CustomHooks/Auth/Login-Hook";
 
 const LoginForm = () => {
+    // Suppose id is get through useParams() from React router dom
+    // const { uid } = useParams(); 
     const uid = "1231"
     const{
         email,
